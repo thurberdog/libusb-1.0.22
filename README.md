@@ -7,3 +7,7 @@ script for configure and then a correct libusb-1.0.so file is generated whose ar
 
 
 ./configure CC=/opt/reach/1.6/sysroots/i686-reachsdk-linux/usr/bin/arm-reach-linux-gnueabi/arm-reach-linux-gnueabi-gcc --host=arm-linux --enable-udev=yes -enable-shared --prefix=/usr/local/libusb 
+
+
+./configure CC=/opt/reach/2.4.4-1/sysroots/x86_64-reachsdk-linux/usr/bin/arm-reach-linux-gnueabi/arm-reach-linux-gnueabi-g++
+host=arm-linux --enable-udev=yes --prefix=/usr/local/libusb
