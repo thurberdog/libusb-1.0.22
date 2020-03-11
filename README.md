@@ -17,7 +17,36 @@ make
 
 sudo make install
 
+Some influential environment variables:
+
+  CC          C compiler command
+  
+  CFLAGS      C compiler flags
+  
+  LDFLAGS     linker flags, e.g. -L<lib dir> if you have libraries in a
+              nonstandard directory <lib dir>
+     
+  LIBS        libraries to pass to the linker, e.g. -l<library>
+     
+  CPPFLAGS    (Objective) C/C++ preprocessor flags, e.g. -I<include dir> if
+              you have headers in a nonstandard directory <include dir
+                                                                   
+  CXX         C++ compiler command
+  
+  CXXFLAGS    C++ compiler flags
+  
+  LT_SYS_LIBRARY_PATH
+              User-defined run-time library search path.
+              
+  CPP         C preprocessor
+  
+  CXXCPP      C++ preprocessor
+
+
+
 script for configure and then a correct libusb-1.0.so file is generated whose architecture was for arm(raspberry pi3).
+
+
 
 ./configure CC=/home/yasir/Development/crosscompile/tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/bin/arm-linux-gnueabihf-gcc  --host=arm-linux --enable-udev=no --enable-shared  --prefix=/usr/local/libusb-rpi
 
