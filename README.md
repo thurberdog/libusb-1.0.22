@@ -42,6 +42,62 @@ Some influential environment variables:
   
   CXXCPP      C++ preprocessor
 
+# Installation directories:
+
+  --prefix=PREFIX         install architecture-independent files in PREFIX
+                          [/usr/local]
+                          
+  --exec-prefix=EPREFIX   install architecture-dependent files in EPREFIX
+                          [PREFIX]
+
+By default, `make install' will install all the files in
+`/usr/local/bin', `/usr/local/lib' etc.
+
+You can specify
+an installation prefix other than `/usr/local' using `--prefix',
+for instance `--prefix=$HOME'.
+
+# Fine tuning of the installation directories:
+
+  --bindir=DIR            user executables [EPREFIX/bin]
+  
+  --sbindir=DIR           system admin executables [EPREFIX/sbin]
+  
+  --libexecdir=DIR        program executables [EPREFIX/libexec]
+  
+  --sysconfdir=DIR        read-only single-machine data [PREFIX/etc]
+  
+  --sharedstatedir=DIR    modifiable architecture-independent data [PREFIX/com]
+  
+  --localstatedir=DIR     modifiable single-machine data [PREFIX/var]
+  
+  --runstatedir=DIR       modifiable per-process data [LOCALSTATEDIR/run]
+  
+  --libdir=DIR            object code libraries [EPREFIX/lib]
+  
+  --includedir=DIR        C header files [PREFIX/include]
+  
+  --oldincludedir=DIR     C header files for non-gcc [/usr/include]
+  
+  --datarootdir=DIR       read-only arch.-independent data root [PREFIX/share]
+  
+  --datadir=DIR           read-only architecture-independent data [DATAROOTDIR]
+  
+  --infodir=DIR           info documentation [DATAROOTDIR/info]
+  
+  --localedir=DIR         locale-dependent data [DATAROOTDIR/locale]
+  
+  --mandir=DIR            man documentation [DATAROOTDIR/man]
+  
+  --docdir=DIR            documentation root [DATAROOTDIR/doc/libusb]
+  
+  --htmldir=DIR           html documentation [DOCDIR]
+  
+  --dvidir=DIR            dvi documentation [DOCDIR]
+  
+  --pdfdir=DIR            pdf documentation [DOCDIR]
+  
+  --psdir=DIR             ps documentation [DOCDIR]
 
 
 script for configure and then a correct libusb-1.0.so file is generated whose architecture was for arm(raspberry pi3).
